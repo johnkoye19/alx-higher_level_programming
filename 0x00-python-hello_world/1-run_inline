@@ -1,0 +1,2 @@
+#!/bin/bash
+echo '#!/usr/bin/python3' > j && echo $PYCODE >> j && python3 j

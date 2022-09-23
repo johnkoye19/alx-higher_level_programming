@@ -8,6 +8,6 @@ elif ac == 1:
     print("0 arguments.")
 else:
     print("{} arguments:".format(ac -1))
-if ac > 1:
-    for i in range(1, ac):
-        print("{}: {}".format(i, sys.argv[i]))
+#if ac > 1:
+for i in range(1, ac):
+    print("{}: {}".format(i, sys.argv[i]))

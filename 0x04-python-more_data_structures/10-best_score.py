@@ -6,6 +6,7 @@
 def best_score(a_dictionary):
     if a_dictionary is None:
         return (None)
+    
     m = list(a_dictionary.values())
     ma = m[0]
     for i in m:

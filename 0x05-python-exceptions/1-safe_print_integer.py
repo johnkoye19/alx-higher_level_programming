@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#write a function that prints integers only
+# write a function that prints integers only
 
 
 def safe_print_integer(value):

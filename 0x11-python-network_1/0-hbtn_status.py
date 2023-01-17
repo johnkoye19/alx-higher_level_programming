@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-# we are trying to fetch a website using urllib
-
+"""we are trying to fetch a website using urllib"""
 import urllib.request
 
-if __name__ = "__main__":
+
+if __name__ == "__main__":
     with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as task0:
         # print (type(task0))
         # actual type

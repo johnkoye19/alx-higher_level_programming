@@ -10,9 +10,9 @@ if __name__ == "__main__":
         # actual type
         print("Body response:")
         actual_type = t0.read()
-        print("\t- type: ", type(actual_type))
+        print("\t- type: {}".format(type(actual_type)))
         # actual content
-        print("\t- content: ", actual_type)
+        print("\t- content: {}".format(actual_type))
         # print string representation
         string_type = actual_type.decode()
-        print("\t- utf8 content: ", string_type)
+        print("\t- utf8 content: {}".format(string_type))
